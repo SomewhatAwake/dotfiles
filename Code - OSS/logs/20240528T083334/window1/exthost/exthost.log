@@ -1,0 +1,10 @@
+2024-05-28 08:33:36.636 [info] Extension host with pid 3094 started
+2024-05-28 08:33:36.837 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-28 08:33:36.859 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-28 08:33:36.963 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-28 08:33:37.093 [info] Eager extensions activated
+2024-05-28 08:33:37.105 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-28 08:33:37.109 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-28 08:33:37.128 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-28 08:40:27.568 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-28 08:40:27.571 [info] Extension host with pid 3094 exiting with code 0

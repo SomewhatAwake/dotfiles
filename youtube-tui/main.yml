@@ -1,0 +1,27 @@
+mouse_support: true
+invidious_instance: https://vid.puffyan.us
+write_config: Try
+allow_unicode: true
+message_bar_default: All good :)
+images: Sixels
+refresh_after_modifying_search_filters: true
+syncing:
+  download_images: true
+  sync_channel_info: true
+  sync_channel_cooldown_secs: 86400
+  sync_videos_cooldown_secs: 600
+limits:
+  watch_history: 50
+  search_history: 75
+  commands_history: 75
+image_index: 4
+provider: YouTube
+shell: bash
+legacy_input_handling: false
+env:
+  browser: firefox
+  video-player: mpv
+  terminal-emulator: kitty
+  youtube-downloader: youtube-dl
+  save-path: ~/.local/share/youtube-tui/saved/
+  download-path: ~/Downloads/%(title)s-%(id)s.%(ext)s

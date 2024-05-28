@@ -1,0 +1,20 @@
+2024-05-27 15:53:15.782 [info] CLI main {"_":[],"diff":false,"merge":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"install-extension":["zhuangtongfa.Material-theme"],"pre-release":false,"update-extensions":false,"version":false,"verbose":false,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-gpu":false,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"trace":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"/home/awaken/.config/Code - OSS/logs/20240527T155315"}
+2024-05-27 15:53:15.783 [info] Started initializing default profile extensions in extensions installation folder. file:///home/awaken/.vscode-oss/extensions
+2024-05-27 15:53:15.832 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/awaken/.vscode-oss/extensions
+2024-05-27 15:53:15.897 [error] [uncaught exception in CLI]: Error: ENOENT: no such file or directory, stat '/home/awaken/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/awaken/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/lib/code/out/vs/code/node/cli.js:33:5837)
+    at d (/usr/lib/code/out/vs/code/node/cli.js:33:5953)
+    at n.hb (/usr/lib/code/out/vs/code/node/cliProcessMain.js:29:35347)
+    at n.stat (/usr/lib/code/out/vs/code/node/cliProcessMain.js:29:27787)
+    at async $.stat (/usr/lib/code/out/vs/code/node/cliProcessMain.js:29:14932)
+    at async Z.sb (/usr/lib/code/out/vs/code/node/cliProcessMain.js:56:69836)
+2024-05-27 15:53:19.893 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-05-27 15:53:22.348 [info] Installing extension: zhuangtongfa.material-theme
+2024-05-27 15:53:29.529 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/cli.js
+2024-05-27 15:53:29.529 [info] Extension signature verification is not done: zhuangtongfa.material-theme
+2024-05-27 15:53:29.571 [info] Extracted extension to file:///home/awaken/.vscode-oss/extensions/zhuangtongfa.material-theme-3.17.2-universal: zhuangtongfa.material-theme
+2024-05-27 15:53:29.588 [info] Renamed to /home/awaken/.vscode-oss/extensions/zhuangtongfa.material-theme-3.17.2-universal
+2024-05-27 15:53:29.589 [info] Extracting extension completed. zhuangtongfa.material-theme
+2024-05-27 15:53:29.612 [info] Extension installed successfully: zhuangtongfa.material-theme
